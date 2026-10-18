@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aurelia Clinic — Medicine, made human</title>
+  <meta name="description" content="Aurelia Clinic offers calm, thoughtful private healthcare in the heart of London.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="logo" href="#top" aria-label="Aurelia Clinic home"><span>Æ</span> AURELIA</a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#clinic">The clinic</a>
+      <a href="#contact">Contact</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="nav-cta" href="#contact">Book a visit <span>↗</span></a>
+    <button class="menu-button" aria-label="Open menu" aria-expanded="false"><i></i><i></i></button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">PRIVATE MEDICINE · LONDON</p>
+        <h1>Care that gives<br><em>you time.</em></h1>
+        <p class="intro">A quieter, more considered approach to healthcare. Thoughtful consultations, advanced diagnostics, and a team who listens.</p>
+        <a class="button" href="#contact">Begin your care <span>↗</span></a>
+        <div class="hero-note"><span class="pulse"></span> Accepting new patients · Mayfair</div>
+      </div>
+      <div class="hero-image reveal"><img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1500&q=85" alt="Quiet, light-filled Aurelia Clinic consultation room"><div class="image-label">SUITE 04 <span>—</span> MAYFAIR</div></div>
+      <div class="scroll-cue">SCROLL TO EXPLORE <span>↓</span></div>
+    </section>
+
+    <section class="clinic" id="clinic">
+      <div class="section-heading reveal"><p class="eyebrow">THE AURELIA SPACE</p><h2>A place to feel<br><em>looked after.</em></h2></div>
+      <div class="gallery-track" aria-label="Gallery of the clinic">
+        <figure class="gallery-card gallery-main"><img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1100&q=85" alt="Modern private clinic hallway"><figcaption>01 / The gallery</figcaption></figure>
+        <figure class="gallery-card gallery-tall"><img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=900&q=85" alt="Warm clinical consultation space"><figcaption>02 / Consultation rooms</figcaption></figure>
+        <figure class="gallery-card gallery-small"><img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=900&q=85" alt="Doctor preparing a calm treatment room"><figcaption>03 / Detail & care</figcaption></figure>
+      </div>
+      <p class="section-caption reveal">Every detail of Aurelia is designed around one simple idea: when people have time and space, better care follows.</p>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-copy reveal"><p class="eyebrow">START A CONVERSATION</p><h2>Let’s make time<br><em>for your health.</em></h2><p>Tell us a little about what you need. Our care team will be in touch within one working day.</p><div class="contact-details"><span>14 Mayfair Crescent<br>London W1J 7BR</span><span>+44 (0)20 7946 0912<br>hello@aurelia.clinic</span></div></div>
+      <form class="contact-form reveal" id="contact-form"><label>Your name<input required type="text" name="name" placeholder="Full name"></label><label>Email address<input required type="email" name="email" placeholder="you@example.com"></label><label>How can we help?<textarea required name="message" rows="4" placeholder="A few words about what brings you to Aurelia..."></textarea></label><button class="button" type="submit">Send enquiry <span>↗</span></button><p class="form-status" role="status"></p></form>
+    </section>
+
+    <section class="faq" id="faq">
+      <div class="section-heading reveal"><p class="eyebrow">COMMON QUESTIONS</p><h2>A little more<br><em>information.</em></h2></div>
+      <div class="faq-list reveal">
+        <details open><summary>What happens at my first visit? <span>+</span></summary><p>Your first consultation is an unhurried conversation with a physician. We listen carefully, review your history, and create a clear next step together.</p></details>
+        <details><summary>Do I need a referral? <span>+</span></summary><p>No referral is needed. Simply send us an enquiry and our care team will help you find the right appointment.</p></details>
+        <details><summary>Where is Aurelia Clinic located? <span>+</span></summary><p>We are at 14 Mayfair Crescent, London W1J 7BR. Our entrance is quiet, private, and fully accessible.</p></details>
+        <details><summary>What are your opening hours? <span>+</span></summary><p>Monday to Friday, 7:30am–8:00pm, and Saturday, 9:00am–5:00pm.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div><a class="logo" href="#top"><span>Æ</span> AURELIA</a><p>Thoughtful medicine for modern life.</p></div><div class="footer-links"><a href="#clinic">The clinic</a><a href="#contact">Contact</a><a href="#faq">FAQ</a></div><p class="copyright">© 2026 Aurelia Clinic</p></footer>
+  <script src="app.js"></script>
+</body>
+</html>
